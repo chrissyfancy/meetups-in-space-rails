@@ -17,3 +17,14 @@ To get this boilerplate up and running, the following commands were run:
 * `bundle install`
 * `rake db:create`
 * `rake db:migrate`
+
+### Seeding the Database
+
+In order to run `rake db:seed` to seed the database with the Faker data, an Events table must be created with the following columns:
+
+| Column Name | Type      |
+| :---------- | :-------- |
+| Name        | String    |
+| Description | String    |
+| Location    | String    |
+| Date        | Date      |
