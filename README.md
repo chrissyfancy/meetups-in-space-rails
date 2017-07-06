@@ -1,4 +1,4 @@
-# Meetups in Space - Rails
+#Meetups in Space - Rails
 
 ### Introduction
 
@@ -9,9 +9,11 @@ We want to convert our version of "Meetups in Space" running on Sinatra, to a Ra
 ### Getting Started
 
 To get this boilerplate up and running, the following commands were run:
-* `rails new meetups-in-space-rails`
+
+* `rails new meetups-in-space-rails --database=postgresql --skip-turbolinks --skip-test-unit`
 
 ### Commands to Set Up the Database
+
 * `bundle install`
 * `rake db:create`
 * `rake db:migrate`
