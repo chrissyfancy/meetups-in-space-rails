@@ -25,12 +25,18 @@ In order to run `rake db:seed` to seed the database with the Faker data, the fol
 ##### Events
 | Column Name | Column Type|
 | :---------- | :--------  |
-| Name        | String     |
-| Description | String     |
-| Location    | String     |
-| Date        | Date       |
+| name        | string     |
+| description | string     |
+| location    | string     |
+| date        | date       |
 
 ##### Topics
 | Column Name | Column Type|
 | :---------- | :--------  |
-| Name        | String     |
+| name        | string     |
+
+##### Meetups (Join)
+| Column Name | Column Type|
+| :---------- | :--------  |
+| event_id    | integer    |
+| topic_id    | integer    |
