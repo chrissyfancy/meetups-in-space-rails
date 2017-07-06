@@ -1,24 +1,17 @@
-# README
+# Meetups in Space - Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Introduction
 
-Things you may want to cover:
+You'll be building a website similar to Meetup.com that allows users to sign up, join existing meetings, and even create their own meetup.
 
-* Ruby version
+We want to convert our version of "Meetups in Space" running on Sinatra, to a Rails application.
 
-* System dependencies
+### Getting Started
 
-* Configuration
+To get this boilerplate up and running, the following commands were run:
+* `rails new meetups-in-space-rails`
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Commands to Set Up the Database
+* `bundle install`
+* `rake db:create`
+* `rake db:migrate`
