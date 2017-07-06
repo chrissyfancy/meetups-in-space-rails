@@ -1,4 +1,4 @@
-#Meetups in Space - Rails
+# Meetups in Space - Rails
 
 ### Introduction
 
