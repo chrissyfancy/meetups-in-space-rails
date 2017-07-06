@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+15.times do
+  Event.create!(name: "#{Faker::HowIMetYourMother.character}'s #{Faker::HowIMetYourMother.catch_phrase} Event", description: Faker::Hipster.paragraphs(1, true), location: Faker::Space.galaxy, date: Faker::Date.forward(100))
+end
