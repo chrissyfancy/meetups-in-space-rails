@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>MeetupsInSpaceRails</title>
+    <title>Meetups In Space - Rails</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all' %>
@@ -9,6 +9,18 @@
   </head>
 
   <body>
-    <%= yield %>
+    <div class="top-bar">
+      <div class="container">
+        <a class="logo" href="/">Meetups in Space</a>
+
+        <ul class="top-bar-section">
+          <%= render "layouts/flash" %>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container">
+      <%= yield %>
+    </div>
   </body>
 </html>
