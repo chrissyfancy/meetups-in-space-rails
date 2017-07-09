@@ -4,7 +4,7 @@
 end
 
 # For generating topics, that require a name:
-topics = ["Arts & Culture", "Book Clubs", "Career & Business", "C""ars & Motorcycles", "Community & Environment", "Dancing", "Education & Learning", "Fashion & Beauty", "Fitness", "Food & Drink", "Games", "Hobbies & Crafts"]
+topics = ["Arts & Culture", "Book Clubs", "Career & Business", "Cars & Motorcycles", "Community & Environment", "Dancing", "Education & Learning", "Fashion & Beauty", "Fitness", "Food & Drink", "Games", "Hobbies & Crafts"]
 
 topics.each do |topic|
   Topic.create!(name: topic)
