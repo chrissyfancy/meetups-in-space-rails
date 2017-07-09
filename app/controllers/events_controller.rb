@@ -6,6 +6,5 @@ class EventsController < ApplicationController
   def show
     @event = Event.find(params[:id])
     @meetup = Meetup.where(event_id: @event)[0]
-    @topic = @meetup.topic
   end
 end

@@ -1,7 +1,7 @@
 <h1><%= @event.name %></h1>
 
 <h4>
-  Topic: <%= link_to @topic.name, topic_path(@topic) %><br>
+  Topic: <%= link_to @meetup.topic.name, topic_path(@meetup.topic) %><br>
   Location: <%= @event.location %><br>
   Date: <%= @event.date %>
 </h4>
