@@ -2,6 +2,6 @@
 
 All Current Meetups for <%= @topic.name %>:<br><br>
 
-<% @all_meetups.each do |meetup| %>
-  <%= link_to meetup[:name], event_path(meetup[:id]) %><br>
+<% @meetups.each do |meetup| %>
+  <%= link_to meetup.event.name, event_path(meetup.id) %><br>
 <% end %>
