@@ -1,7 +1,5 @@
-<h1><%= @topic.name %></h1>
-
-All Current Events Where Topic is <%= @topic.name %>:<br><br>
+All Current Meetups for <%= @topic.name %>:<br><br>
 
 <% @meetups.each do |meetup| %>
-  <%= link_to meetup.event.name, event_path(meetup.event) %><br>
+  <%= link_to meetup.event.name, event_path(meetup.id) %><br>
 <% end %>
